@@ -37,3 +37,21 @@ public class Pessoa {//Cria uma classe, com acesso público de nome Pessoa
     public int idade;
 }
 ```
+
+### Criando uma instância da classe Pessoa
+```cmd
+Main.java
+```
+```Java
+/*
+
+*/
+public class Main {//Cria uma classe, com acesso público de nome Main
+    public static void main(String[] args){// Cria um método main, com visibilidade publica, void é devido ao método não ter nenhum tipo de retorno
+        Public Pessoa pessoa = new Pessoa();// Cria uma instância (objeto) da classe pessoa
+        pessoa.nome = "João"; // Atribui um nome
+        pessoa.idade = 18; // Atribui uma idade
+        System.out.println("O nome da pessoa é : " + pessoa.nome + "e a idade é: " + pessoa.idade);
+    }
+}
+```
