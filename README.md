@@ -19,6 +19,12 @@ public class Main {//Cria uma classe, com acesso público de nome Main
 ```
 
 ### Criando a primeira Classe
+#### Diagrama de classes
+```mermaid
+classDiagram
+ClassPessoa : +String nome
+ClassPessoa : +int idade
+```
 
 ```cmd
 Pessoa.java
