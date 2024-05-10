@@ -12,4 +12,5 @@ public class Main {//Cria uma classe, com acesso público de nome Main
     public static void main(String[] args){// Cria um método main, com visibilidade publica, void é devido ao método não ter nenhum tipo de retorno
         System.out.println("Olá Mundo");//Imprime "Olá Mundo", já direciona o cursor para a próxima linha
     }
+}
 ```
